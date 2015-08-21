@@ -19,8 +19,9 @@ an input source for RDDs as well as providing options to write RDDs to MongoDB.
 
 ## Building
 
-Run `./gradlew jar` to build the jar file. The jar will be placed in the
-`build/libs` directory.
+Run `./gradlew jar` to build the jars. Jars will be place in the build/libs
+directory of each module. For example, the `core` jar will be placed in
+`core/build/libs`.
 
 ## Usage
 

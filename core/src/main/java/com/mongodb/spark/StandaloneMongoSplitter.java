@@ -72,6 +72,7 @@ class StandaloneMongoSplitter {
         Document splitVectorCommand = new Document("splitVector", ns)
                                            .append("keyPattern", keyPattern)
                                            .append("maxChunkSize", this.maxChunkSize);
+
         Document result;
         try {
             result = this.provider.getDatabase()
